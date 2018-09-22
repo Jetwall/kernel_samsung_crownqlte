@@ -1,0 +1,10 @@
+kernel/drivers/adsp_factory/adsp_factory.ko
+kernel/drivers/adsp_factory/ssc_core.ko
+kernel/drivers/adsp_factory/lsm6dsl_accel.ko
+kernel/drivers/adsp_factory/lsm6dsl_gyro.ko
+kernel/drivers/adsp_factory/ak09916c_mag.ko
+kernel/drivers/adsp_factory/lps22hb_pressure.ko
+kernel/drivers/adsp_factory/tmd490x_light.ko
+kernel/drivers/adsp_factory/tmd490x_prox.ko
+kernel/drivers/adsp_factory/tmd490x_barcode_emul.ko
+kernel/drivers/adsp_factory/hidden_hole.ko

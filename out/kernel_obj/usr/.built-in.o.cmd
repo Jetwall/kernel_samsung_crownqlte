@@ -1,0 +1,1 @@
+cmd_usr/built-in.o :=  /media/klabit/MainStorage/AndroidBuilds/min-twrp8.1/kernel/samsung/crownqlte/lazy-prebuilt/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o usr/built-in.o usr/initramfs_data.o 

@@ -1,0 +1,2 @@
+kernel/drivers/gud/MobiCoreDriver/mcDrvModule.ko
+kernel/drivers/gud/TlcTui/t-base-tui.ko
