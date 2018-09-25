@@ -1,7 +1,0 @@
-kernel/drivers/misc/lkdtm.ko
-kernel/drivers/misc/hdcp.ko
-kernel/drivers/misc/qseecom.ko
-kernel/drivers/misc/memory_state_time.ko
-kernel/drivers/misc/tima_debug_log.ko
-kernel/drivers/misc/memory_state_time.ko
-kernel/drivers/misc/samsung/tzic64.ko
