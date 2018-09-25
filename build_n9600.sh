@@ -56,14 +56,13 @@ FUNC_BUILD_DTB()
 FUNC_PACK()
 {
 		FUNC_PRINT "Start Packing"
-		cp -r $KERNEL_DIR/* $TEMP_DIR
-		cp $BUILDING_DIR/arch/arm64/boot/Image.gz-dtb $TEMP_DIR/split_img/boot.img-zImage
+		cp $BUILDING_DIR/arch/arm64/boot/Image.gz-dtb $KERNEL_DIR/split_img/boot.img-zImage
 		mkdir $OUT_DIR/modules
 		find . -type f -name "*.ko" | xargs cp -t $OUT_DIR/modules
-		cd $TEMP_DIR
+		cd $KERNEL_DIR
 		sudo ./repackimg.sh
 		cp image-new.img $OUT_DIR/boot.img
-		cp $TEMP_DIR/split_img/boot.img-zImage $OUT_DIR/boot.img-zImage
+		cp $KERNEL_DIR/split_img/boot.img-zImage $OUT_DIR/boot.img-zImage
 		sudo ./cleanup.sh
 		cd $ROOT_DIR
 		rm -rf $TEMP_DIR
